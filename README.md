@@ -2,7 +2,7 @@
 - 👀 I’m interested in web development
 - 🌱 I’m currently learning web development
 - 💞️ I’m looking to collaborate with other experts
-- 📫 How to reach me - through linkein-swapna Reddy
+- 📫 How to reach me - through linkedin-swapna Reddy
 
 
 
