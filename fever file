@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fever Check with Switch Case</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 500px;
+      margin: 50px auto;
+      padding: 20px;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+      background-color: #f3fcff;
+    }
+    input, button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+    }
+    .output {
+      margin-top: 20px;
+      padding: 15px;
+      background: #e6ffe6;
+      border: 1px solid #99cc99;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Fever Check using Switch-Case</h2>
+  
+  <label for="actualTemp">Enter Actual Body Temperature (°F):</label>
+  <input type="number" id="actualTemp" placeholder="e.g. 101.4">
+  
+  <label for="choice">Choose Option (1 to 4):</label>
+  <select id="choice">
+    <option value="1">Check if person has fever</option>
+    <option value="2">Display normal body temperature</option>
+    <option value="3">Give advice</option>
+    <option value="4">Exit</option>
+  </select>
+
+  <button onclick="checkFever()">Submit</button>
+
+  <div class="output" id="output"></div>
+
+  <script>
+    function checkFever() {
+      const normalTemp = 98.6;
+      const actualTemp = parseFloat(document.getElementById("actualTemp").value);
+      const choice = parseInt(document.getElementById("choice").value);
+      const output = document.getElementById("output");
+
+      if (isNaN(actualTemp)) {
+        output.innerHTML = "<strong>Please enter a valid temperature.</strong>";
+        return;
+      }
+
+      let message = "";
+
+      switch (choice) {
+        case 1:
+          if (actualTemp > normalTemp) {
+            message = `Actual Temperature: ${actualTemp}°F<br>Result: Person has a fever.`;
+          } else {
+            message = `Actual Temperature: ${actualTemp}°F<br>Result: No fever.`;
+          }
+          break;
+        case 2:
+          message = `Normal body temperature is around ${normalTemp}°F.`;
+          break;
+        case 3:
+          if (actualTemp > 102) {
+            message = `Temperature: ${actualTemp}°F<br>Advice: Please consult a doctor immediately!`;
+          } else if (actualTemp > normalTemp) {
+            message = `Temperature: ${actualTemp}°F<br>Advice: Stay hydrated and take rest.`;
+          } else {
+            message = `Temperature: ${actualTemp}°F<br>Advice: Keep maintaining good health!`;
+          }
+          break;
+        case 4:
+          message = "Exiting the check. Stay healthy!";
+          break;
+        default:
+          message = "Invalid choice. Please select a valid option from 1 to 4.";
+      }
+
+      output.innerHTML = `<strong>${message}</strong>`;
+    }
+  </script>
+
+</body>
+</html>
