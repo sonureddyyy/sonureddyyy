@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Swapma Reddy</h1>
-<h3 align="center">B.Tech Graduate | Java Developer | React Enthusiast | ServiceNow Learner</h3>
+<h3 align="center">B.Tech Graduate | Java Developer | ServiceNow Learner</h3>
 
 <p align="center">
   Passionate about building scalable applications, solving DSA problems, and exploring modern technologies.
@@ -11,9 +11,9 @@
 
 🎓 B.Tech Graduate (2026)
 
-💻 Interested in Full Stack Development, Java, React, and ServiceNow
+💻 Interested in Full Stack Development, Java, SQL, React, and ServiceNow
 
-🌱 Currently learning React, ServiceNow, and Advanced Java
+🌱 Currently learning SQL, React, ServiceNow, and Advanced Java
 
 🔍 Exploring VLSI and Software Development opportunities
 
