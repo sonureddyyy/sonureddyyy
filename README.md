@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Sonu Reddy</h1>
+<h1 align="center">Hi 👋, I'm Swapma Reddy</h1>
 <h3 align="center">B.Tech Graduate | Java Developer | React Enthusiast | ServiceNow Learner</h3>
 
 <p align="center">
@@ -47,17 +47,35 @@
 
 ## 📂 Featured Projects
 
-### 🏦 Bank Management System
-Java-based banking application implementing OOP concepts such as Encapsulation, Inheritance, and Polymorphism.
+### ⚡ Hybrid Mobile Charging Station (Patented)
+Developed an innovative renewable-energy-powered charging station that combines a 40W solar panel and a 20W wind turbine to provide portable power for smartphones, laptops, and other devices.
 
-### 📋 Project Management Application
-Full Stack Application using React, Node.js, Express, and MongoDB.
+#### Key Features:
+- Hybrid power generation using solar and wind energy
+- Raspberry Pi Pico for monitoring and smart power distribution
+- Battery Management System (BMS) for safety and efficiency
+- Portable design with wheels for easy transportation
+- Anti-theft alarm system for enhanced security
+- Suitable for remote, off-grid, and disaster-prone areas
 
-### 🌐 React Learning Projects
-Collection of React projects demonstrating Hooks, Routing, State Management, and API Integration.
+**Tech Used:** Raspberry Pi Pico, Solar Panel, Wind Turbine, BMS, Embedded Systems
 
 ---
 
+### 🔧 Automated IT Help Desk Ticketing System – ServiceNow
+Designed and developed an automated ITSM ticketing system in ServiceNow to streamline incident management and improve operational efficiency.
+
+#### Key Features:
+- Custom incident management workflows
+- Automated ticket routing and assignment
+- SLA tracking and compliance monitoring
+- Notification and escalation mechanisms
+- Business Rules and Flow Designer integration
+- Automated ticket closure process
+
+**Tech Used:** ServiceNow, Flow Designer, Business Rules, ITSM
+
+---
 ## 📊 GitHub Stats
 
 <p align="center">
@@ -89,6 +107,7 @@ Collection of React projects demonstrating Hooks, Routing, State Management, and
 📧 Email: sonureddy181@gmail.com
 
 💼 LinkedIn: https://www.linkedin.com/in/swapna-reddy-5878022b7/
+
 🌐 Portfolio: https://extraordinary-pegasus-c6336a.netlify.app/
 
 ---
