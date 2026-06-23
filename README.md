@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Swapma Reddy</h1>
+<h1 align="center">Hi 👋, I'm Swapna Reddy</h1>
 <h3 align="center">B.Tech Graduate | Java Developer | ServiceNow Learner</h3>
 
 <p align="center">
