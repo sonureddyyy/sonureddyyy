@@ -9,15 +9,19 @@
 
 ## 🚀 About Me
 
-🎓 B.Tech Graduate (2026)
+🎓 B.Tech in Electronics & Instrumentation Engineering (CGPA: 9.7)
 
-💻 Interested in Full Stack Development, Java, SQL, React, and ServiceNow
+🏆 ServiceNow Certified System Administrator (CSA)
 
-🌱 Currently learning SQL, React, ServiceNow, and Advanced Java
+🏆 ServiceNow Certified Application Developer (CAD)
 
-🔍 Exploring VLSI and Software Development opportunities
+💻 Skilled in Java, JavaScript, ServiceNow, HTML, CSS, and SQL
 
-⚡ Strong interest in Problem Solving and Data Structures & Algorithms
+🔍 Interested in Software Development, ServiceNow Development, and Emerging Technologies
+
+🌱 Currently enhancing my skills in React, Full Stack Development, and DSA
+
+⚡ Passionate about building real-world solutions and continuous learning
 
 ---
 
